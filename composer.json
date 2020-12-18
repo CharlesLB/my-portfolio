@@ -1,0 +1,23 @@
+{
+  "name": "gabriellacarvalho0701/portfolio",
+  "description": "Portfólio",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+      {
+          "name": "Gabriella Carvalho",
+          "email": "gabriellaetuta@gmail.com"
+      }
+  ],
+  "require": {
+      "php": ">=7.0"
+  },
+  "autoload": {
+      "psr-4": {
+        "Source\\": "source/"
+      },
+    "files": [
+      "source/config.php"
+    ]
+  }
+}
