@@ -4,21 +4,28 @@
   "minimum-stability": "stable",
   "license": "MIT",
   "authors": [
-      {
-          "name": "Gabriella Carvalho",
-          "email": "gabriellaetuta@gmail.com"
-      }
+    {
+      "name": "Gabriella Carvalho",
+      "email": "gabriellaetuta@gmail.com"
+    }
   ],
-  "require": {
-      "php": ">=7.0",
-    "coffeecode/datalayer": "^1.1"
+  "config": {
+    "vendor-dir": "vendor"
   },
   "autoload": {
-      "psr-4": {
-        "Source\\": "source/"
-      },
+    "psr-4": {
+      "Source\\": "source/"
+    },
     "files": [
-      "source/config.php"
+      "source/Config.php"
     ]
+  },
+  "require": {
+    "php": "^7.1",
+    "ext-pdo": "^7.1",
+    "ext-json": "*",
+    "league/plates": "v4.0.0-alpha",
+    "coffeecode/router": "^1.0",
+    "coffeecode/datalayer": "1.1.*"
   }
 }

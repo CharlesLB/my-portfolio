@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '5c5d3a553c5e374a5df2a15459ae5e008f9d7872',
+    'reference' => '4d96fcdf6d3bf9e2e94d40e432dbf7745e47b829',
     'name' => 'gabriellacarvalho0701/portfolio',
   ),
   'versions' => 
@@ -20,6 +20,15 @@
       ),
       'reference' => '6a51fa227bba003be11519e7efa8338bc87460f5',
     ),
+    'coffeecode/router' => 
+    array (
+      'pretty_version' => '1.0.7',
+      'version' => '1.0.7.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'e3b94f72bc389e8b97d82a0fd0e5bff743e51667',
+    ),
     'gabriellacarvalho0701/portfolio' => 
     array (
       'pretty_version' => 'dev-master',
@@ -27,7 +36,16 @@
       'aliases' => 
       array (
       ),
-      'reference' => '5c5d3a553c5e374a5df2a15459ae5e008f9d7872',
+      'reference' => '4d96fcdf6d3bf9e2e94d40e432dbf7745e47b829',
+    ),
+    'league/plates' => 
+    array (
+      'pretty_version' => 'v4.0.0-alpha',
+      'version' => '4.0.0.0-alpha',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'f53f4c1fa4bf307d0f3858a348172ff4faf7669a',
     ),
   ),
 );
