@@ -20,11 +20,11 @@
   use Source\Models\Experience;
 
   $experience = new Experience();
-  $experience->name = "Charles";
-  $experience->initial_date = "2002-01-25";
-  $experience->final_date = "2002-05-27";
-  $experience->description = "Locutor";
-  $experience->location = "Radio";;
+  $experience->name = "Giulia";
+  $experience->initial_date = "2002-05-09";
+  $experience->final_date = "2002-09-02";
+  $experience->description = "Arquiteta";
+  $experience->location = "Oi";;
   $experience->save();
 
-  var_dump($experience->save());
+  var_dump($experience->data());
