@@ -11,7 +11,7 @@ class Experience extends DataLayer
     parent::__construct("g33_experiences", ["name", "	initial_date", "final_date", "description", "location"]);
   }
 
-  public function add(string $name, $initial_date, $final_date, string $description, string $location): Experience
+  public function add($name, $initial_date, $final_date, $description, $location): Experience
   {
     $this->name = $name;
     $this->initial_date = $initial_date;
