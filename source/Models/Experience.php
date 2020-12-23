@@ -8,7 +8,7 @@ class Experience extends DataLayer
 {  
   public function __construct()
   {
-    parent::__construct("g33_experiences", ["name", "	initial_date", "final_date", "description", "location"]);
+    parent::__construct("g33_experiences", ["name", "description", "location"], 'id', false);
   }
 
   public function add($name, $initial_date, $final_date, $description, $location): Experience
@@ -19,7 +19,7 @@ class Experience extends DataLayer
     $this->description = $description;
     $this->location = $location;
 
-    // $this->save();
+    $this->save();
 
     var_dump($this->data());
 
